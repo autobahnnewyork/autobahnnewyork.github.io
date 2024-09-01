@@ -1,46 +1,79 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
-<meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Autobahn from New York</title> 
-<style> /* Apply styles to the whole page */ body { background-color: black; /* Background color */ color: white; /* Text color */ font-family: Helvetica, Arial, sans-serif; /* Font style */ margin: 0; padding: 0; } h1, p { margin: 0; padding: 1em; } a { color: lightblue; /* Link color */ text-decoration: none; /* Remove underline from links */ } a:hover { text-decoration: underline; /* Add underline on hover */ } </style>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobahn from New York</title> 
+    <style>
+        /* Apply styles to the whole page */
+        body {
+            background-color: black; /* Background color */
+            color: white; /* Text color */
+            font-family: Helvetica, Arial, sans-serif; /* Font style */
+            margin: 0; 
+            padding: 0;
+            position: relative; /* Ensure positioning context for absolute positioning */
+        }
+        h1, p {
+            margin: 0;
+            padding: 1em;
+        }
+        a {
+            color: 	#EEDC82; /* Link color */
+            text-decoration: none; /* Remove underline from links */
+        }
+        a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+        .top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px; /* Optional: Adjust margin to add spacing from the edges */
+        }
+    </style>  
 </head>
 <body>
-<h1>Shows played past present future</h1> 
- <p>Upcoming shows: 
-<br>09/13/24 Brooklyn NY with Council on Foreign Relations at Brooklyn apartment </p>
- <p>Past shows:
- <br>08/22/24 Brooklyn NY with Blood Estate, Gwendolyn, Daysies at Trans Pecos 
-<br>08/16/24 Philadelphia PA with TV Buddah at Little Red Library <br>08/01/24 Brooklyn NY with Tourniquet, Debris Bardot at Trash Bridge 
-<br>07/31/24 Brooklyn NY with Asher White at Gold Sounds 
-<br>07/18/24 San Diego CA with Superfan at the Voodoo room 
-<br>07/17/24 Los Angeles CA with Superfan at the Echo 
-<br>07/15/24 San Francisco CA with Superfan at Cafe Du Nord 
-<br>07/07/24 Milwaukee WI for Hallogallo fest at the Falcon Bowl
- <br>07/06/24 Chicago IL for Hallogallo fest at Color Club 
-<br>06/13/24 Brooklyn NY with Act, Answering Machines, SSAJ Big Band at Hart Bar 
-<br>05/31/24 Brooklyn NY with Anastasia Coope, Colle at Baby's All Right
- <br>05/09/24 Queens NY with The Kippers, Bullwinkle, Dino Expedition at Stone Circle Theater <br>03/09/24 Brooklyn NY with Accessory, Beat Detectives at Union Pool 
-<br>03/07/24 Brooklyn NY with Superfan at Pete's Candy Store 
-<br>01/28/24 Queens NY with Boy Factory, Jacob Frericks, Painted Day at the Windjammer 
-<br>12/16/23 Brooklyn NY with Butch Anderson, Bullwinkle, George Went Hensley, Brando Bien at Hart Bar 
-<br>11/09/23 Queens NY with Horsegirl, Gluepot at Stone Circle Theater 
-<br>10/14/23 Queens NY with Debris Bardot, Boy Factory at The Windjammer 
-<br>08/12/23 New York NY with Kyle Salamack, The Acute, Kid Bowery at Francis Kite Club 
-<br>08/10/23 New York NY with Debris Bardot at The Delancey 
-<br>07/31/23 Brooklyn NY with Butch Anderson (fka Sideria) at Anastasia&Louisa's old apartment 53 Clifton 
-<br>07/19/23 Brooklyn NY with Anastasia Coope, Debris Bardot, Horsegirl, Sharp Pins at Shwickingham Palace <br>07/07/23 Brooklyn NY with Femcel, the Acute, Moxie Pocket at The Broadway 
-<br>05/19/23 Brooklyn NY with Anastasia Coope, Kyle Salamack at Findlay's old apartment 162 Pulaski 
-<br>04/22/23 Queens NY with Buff Ginger, Screenager, Jet Fuel Soda at Stone Circle Theater 
-<br>04/03/23 New York NY with Yaan Pessino, Kid Bowery, Plastic Baby Jesus, The Acute at Bowery Electric 
-<br>02/24/23 Brooklyn NY ////BONZO//// with Zachary Galsky, Anastasia Coope at Damon's Loft
- <br>01/07/23 San Francisco CA with April Magazine, Cole Pulice at Hit Gallery 
-<br>01/06/23 Los Angeles CA with Semi Trucks, Syko Friend at Zebulon 
-<br>12/03/22 Brooklyn NY ////BONZO//// with Anastasia Coope 
-<br>11/04/22 Brooklyn NY with Toothache Charley 
-<br>10/22/22 Brooklyn NY with Donkey Basketball, Anastasia Coope at Anastasia&Louisa's old apartment 53 Clifton 
-<br>09/29/22 Brooklyn NY ////BONZO//// with April Magazine, Anastasia Coope at Damon's Loft 
-<br>09/17/22 Brooklyn NY ////BONZO//// with Anastasia Coope, Lazlo and the Hidden Strength, MGNA Crrrta, Toothache Charley at The Broadway </p>
+    <!-- Image in the top right corner -->
+    <img src="https://www.dropbox.com/scl/fi/xh244e0fzzi75fvh7pk9t/png-transparent-clef-bass-treble-music-bass-clef-text-monochrome-musical-notation-thumbnail.png?rlkey=tmbx4ssqws5egjhlqrr4vyhkw&st=kh5m5pud&raw=1" alt="Musical Clef" class="top-right">
+    
+    <h1>Shows played past present future</h1>
+    <p>Upcoming shows:
+    <br>09/13/24 Brooklyn NY with Council on Foreign Relations at Brooklyn apartment </p>
+    <p>Past shows:
+    <br>08/22/24 Brooklyn NY with Blood Estate, Gwendolyn, Daysies at Trans Pecos 
+    <br>08/16/24 Philadelphia PA with TV Buddah at Little Red Library 
+    <br>08/01/24 Brooklyn NY with Tourniquet, Debris Bardot at Trash Bridge 
+    <br>07/31/24 Brooklyn NY with Asher White at Gold Sounds 
+    <br>07/18/24 San Diego CA with Superfan at the Voodoo room 
+    <br>07/17/24 Los Angeles CA with Superfan at the Echo 
+    <br>07/15/24 San Francisco CA with Superfan at Cafe Du Nord 
+    <br>07/07/24 Milwaukee WI for Hallogallo fest at the Falcon Bowl
+    <br>07/06/24 Chicago IL for Hallogallo fest at Color Club 
+    <br>06/13/24 Brooklyn NY with Act, Answering Machines, SSAJ Big Band at Hart Bar 
+    <br>05/31/24 Brooklyn NY with Anastasia Coope, Colle at Baby's All Right
+    <br>05/09/24 Queens NY with The Kippers, Bullwinkle, Dino Expedition at Stone Circle Theater 
+    <br>03/09/24 Brooklyn NY with Accessory, Beat Detectives at Union Pool 
+    <br>03/07/24 Brooklyn NY with Superfan at Pete's Candy Store 
+    <br>01/28/24 Queens NY with Boy Factory, Jacob Frericks, Painted Day at the Windjammer 
+    <br>12/16/23 Brooklyn NY with Butch Anderson, Bullwinkle, George Went Hensley, Brando Bien at Hart Bar 
+    <br>11/09/23 Queens NY with Horsegirl, Gluepot at Stone Circle Theater 
+    <br>10/14/23 Queens NY with Debris Bardot, Boy Factory at The Windjammer 
+    <br>08/12/23 New York NY with Kyle Salamack, The Acute, Kid Bowery at Francis Kite Club 
+    <br>08/10/23 New York NY with Debris Bardot at The Delancey 
+    <br>07/31/23 Brooklyn NY with Butch Anderson (fka Sideria) at Anastasia&Louisa's old apartment 53 Clifton 
+    <br>07/19/23 Brooklyn NY with Anastasia Coope, Debris Bardot, Horsegirl, Sharp Pins at Shwickingham Palace 
+    <br>07/07/23 Brooklyn NY with Femcel, the Acute, Moxie Pocket at The Broadway 
+    <br>05/19/23 Brooklyn NY with Anastasia Coope, Kyle Salamack at Findlay's old apartment 162 Pulaski 
+    <br>04/22/23 Queens NY with Buff Ginger, Screenager, Jet Fuel Soda at Stone Circle Theater 
+    <br>04/03/23 New York NY with Yaan Pessino, Kid Bowery, Plastic Baby Jesus, The Acute at Bowery Electric 
+    <br>02/24/23 Brooklyn NY ////BONZO//// with Zachary Galsky, Anastasia Coope at Damon's Loft
+    <br>01/07/23 San Francisco CA with April Magazine, Cole Pulice at Hit Gallery 
+    <br>01/06/23 Los Angeles CA with Semi Trucks, Syko Friend at Zebulon 
+    <br>12/03/22 Brooklyn NY ////BONZO//// with Anastasia Coope 
+    <br>11/04/22 Brooklyn NY with Toothache Charley 
+    <br>10/22/22 Brooklyn NY with Donkey Basketball, Anastasia Coope at Anastasia&Louisa's old apartment 53 Clifton 
+    <br>09/29/22 Brooklyn NY ////BONZO//// with April Magazine, Anastasia Coope at Damon's Loft 
+    <br>09/17/22 Brooklyn NY ////BONZO//// with Anastasia Coope, Lazlo and the Hidden Strength, MGNA Crrrta, Toothache Charley at The Broadway </p>
 </body>
 </html>
