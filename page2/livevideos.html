@@ -12,10 +12,16 @@
             font-family: Helvetica, Arial, sans-serif; /* Font style */
             margin: 0; 
             padding: 0; 
+            display: flex; /* Flexbox for centering content */
+            flex-direction: column; /* Stack content vertically */
+            align-items: center; /* Center content horizontally */
         } 
         h1, p { 
             margin: 0; 
             padding: 1em; 
+            text-align: center; /* Center text for better readability */
+            width: 100%; /* Ensure paragraphs take up full width */
+            max-width: 800px; /* Optional: limit the maximum width of paragraphs */
         } 
         a { 
             color: lightblue; /* Link color */ 
@@ -24,6 +30,12 @@
         a:hover { 
             text-decoration: underline; /* Add underline on hover */ 
         } 
+        img { 
+            max-width: 100%; /* Ensure images fit within their container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove default inline spacing */
+            margin: 0 auto; /* Center images */
+        }
     </style> 
 </head>
 <body> 
@@ -50,7 +62,8 @@
             <img src="https://www.dropbox.com/scl/fi/u5q4rwml9rpgj8hypmqpk/Screen-Shot-2024-08-30-at-1.33.40-PM.png?rlkey=olfhwhrmc8kfwdhlaaatt37h1&st=szvfawfn&raw=1" alt="New Now">
         </a>
     </p>
- <p>"Rocio" at the Echo supporting Superfan— July 2024
+ 
+    <p>"Rocio" at the Echo supporting Superfan— July 2024
         <br>
         <a href="https://www.youtube.com/watch?v=4LU0hoNjuNE" target="_blank">
             <img src="https://www.dropbox.com/scl/fi/92lc6lhyy1b3g4vaximim/Screen-Shot-2024-08-30-at-1.58.19-PM.png?rlkey=4zc6e9l4uou8334fgbcgtag62&st=v4mhtdtl&raw=1" alt="Rocio">
