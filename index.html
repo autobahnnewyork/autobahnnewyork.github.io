@@ -8,24 +8,39 @@
     <style>
         /* Apply styles to the whole page */
         body {
-            background-color: black; /* Background color */
-            color: white; /* Text color */
+            background-color: white; /* Background color changed to white */
+            color: black; /* Text color changed to black */
             font-family: Helvetica, Arial, sans-serif; /* Font style */
             margin: 0; 
             padding: 0; 
             text-align: center; /* Center text and inline elements */
+            font-size: 14px; /* Slightly smaller font size */
+            letter-spacing: 0.5px; /* Added greater letter spacing */
         }
+
         h1, p {
             margin: 0; 
             padding: 1em; 
         }
+
+        /* Hyperlink style */
         a {
-            color: red; /* Link color */
+            color: #3F00FF; /* Dark blue color matching the footer */
             text-decoration: none; /* Remove underline from links */
         }
         a:hover {
             text-decoration: underline; /* Add underline on hover */
         }
+
+        /* Grid layout for hyperlinks */
+        .links-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 15px; /* Space between links */
+            padding: 1em;
+        }
+
+        /* Container for the image */
         .image-container {
             text-align: center; /* Center the image */
             padding: 1em; /* Add padding around the image */
@@ -34,13 +49,15 @@
             max-width: 100%; /* Ensure the image scales with the container */
             height: auto; /* Maintain aspect ratio */
         }
+
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #3F00FF;
+            background-color: #3F00FF; /* Dark blue footer */
             color: #000;
             margin-top: 20px;
         }
+
         @media (max-width: 600px) {
             h1 {
                 font-size: 24px; /* Adjust font size for smaller screens */
@@ -48,27 +65,35 @@
             p {
                 font-size: 14px; /* Adjust font size for smaller screens */
             }
+
+            /* Adjust the grid for smaller screens */
+            .links-container {
+                grid-template-columns: 1fr; /* One column for smaller screens */
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Autobahn</h1> 
+<p><i>Autobahn is a band made up of (left to right) Louisa Tantillo (cello/bass), Liam Barton (drums), and Findlay Fullarton (guitar), making noise rock New York City</i></p>
 
-    <div class="image-container">
-        <img src="https://www.dropbox.com/scl/fi/axzens6zx1l36ypguydqi/4BB6C936-F7FA-4960-9E48-EDBCF876EDCD_1_105_c.jpeg?rlkey=bnpyvjmq7kwf1amxhx4rovpux&st=2qd5l53q&raw=1" alt="Autobahn Image">
-    </div>
-
-    <p>Autobahn is a band made up of Louisa Tantillo (bass), Findlay Fullarton (guitar), Liam Barton (drums), making psychotic rock music out of New York City</p>
+<!-- Links in grid layout -->
+<div class="links-container">
     <p><a href="page2/showarchive.html">Shows</a></p>
     <p><a href="page2/livevideos.html">Videos</a></p>
     <p><a href="page2/livephotos.html">Photos</a></p>
     <p><a href="https://www.instagram.com/autobahn212/" target="_blank">Instagram</a></p> 
     <p><a href="https://autobahnduo.bandcamp.com/" target="_blank">Bandcamp</a></p> 
     <p><a href="page2/FAQs.html">FAQs</a></p>
-    <p>autobahnduo@gmail.com <br>mgmt – kalliopimagnis@gmail.com </p> 
-    <footer>
-        <p>&copy; <span id="2024"></span> Autobahn website powered by rock</p>
-    </footer>
+</div>
+
+<div class="image-container">
+    <img src="https://www.dropbox.com/scl/fi/y9sdzsgooniv2md3033vq/CFC2F9EE-2310-46DD-AE5D-CE8CD33FB30D_1_105_c.jpeg?rlkey=qr5vm4djk88oz30j44jddxj9o&st=8xpx6c21&raw=1" alt="Autobahn Image">
+</div>
+
+<p>autobahnduo@gmail.com <br>mgmt – kalliopimagnis@gmail.com </p> 
+
+<footer>
+    <p>&copy; <span id="2024"></span> Autobahn website powered by rock</p>
+</footer>
 </body>
 </html>
-
