@@ -12,7 +12,7 @@
             font-family: Helvetica, Arial, sans-serif; /* Font style */
             margin: 0; 
             padding: 0; 
-            text-align: center; /* Center text and inline elements */
+            text-align: right; /* Align text and inline elements to the right */
         } 
         h1, p { 
             margin: 0; 
@@ -30,12 +30,12 @@
         .image-container {
             display: flex; /* Use flexbox for centering */
             flex-wrap: wrap; /* Allow images to wrap */
-            justify-content: center; /* Center images horizontally */
-            gap: 1em; /* Optional: add spacing between images */
+            justify-content: flex-end; /* Align images to the right */
             padding: 1em; /* Optional: add padding around container */
+            gap: 0; /* Remove space between images */
         }
         .image-container img {
-            max-width: 100%; /* Ensure images fit within their container */
+            width: auto; /* Let the image take up the necessary width */
             height: auto; /* Maintain aspect ratio */
             border: none; /* Remove border from images */
             border-radius: 0; /* Remove rounded corners */
