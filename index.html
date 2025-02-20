@@ -66,9 +66,9 @@
                 font-size: 14px; /* Adjust font size for smaller screens */
             }
 
-            /* Adjust the grid for smaller screens */
+            /* Adjust the grid for smaller screens to show two columns dynamically */
             .links-container {
-                grid-template-columns: 1fr; /* One column for smaller screens */
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Use auto-fill with minimum column width */
             }
         }
     </style>
@@ -97,3 +97,4 @@
 </footer>
 </body>
 </html>
+
