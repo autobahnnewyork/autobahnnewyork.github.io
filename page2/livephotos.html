@@ -5,143 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Archive</title>
     <style>
-        /* Apply styles to the whole page */
         body {
-            background-color: #3F00FF; /* Background color */
-            color: white; /* Text color */
-            font-family: Helvetica, Arial, sans-serif; /* Font style */
-            margin: 0; 
-            padding: 0; 
-            text-align: left; /* Align text and inline elements to the right */
-        } 
-        h1, p { 
-            margin: 0; 
+            background-color: #3F00FF;
+            color: white;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        h1, p {
+            margin: 0;
             padding: 1em;
-            font-size: 12px; /* Smaller text size */
-            letter-spacing: 2px; /* Increased letter spacing */
-        } 
-        a { 
-            color: lightblue; /* Link color */ 
-            text-decoration: none; /* Remove underline from links */ 
-        } 
-        a:hover { 
-            text-decoration: underline; /* Add underline on hover */ 
-        }  
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        a {
+            color: lightblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         .image-container {
-            display: flex; /* Use flexbox for centering */
-            flex-wrap: wrap; /* Allow images to wrap */
-            justify-content: flex-start; /* Align images to the left */
-            padding: 1em; /* Optional: add padding around container */
-            gap: 0; /* Remove space between images */
+            width: 100%;
+            padding: 0;
         }
+
         .image-wrapper {
-            position: relative; /* Allow the caption to position relative to the image */
-            margin: 0.5em; /* Optional margin for spacing between images */
+            position: relative;
+            width: 100%;
+            margin-bottom: 1em;
         }
-        .image-container img {
-            width: auto; /* Let the image take up the necessary width */
-            height: auto; /* Maintain aspect ratio */
-            border: none; /* Remove border from images */
-            border-radius: 0; /* Remove rounded corners */
-            box-sizing: border-box; /* Include padding and border in element's total width and height */
+
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
+
         .image-credit {
             position: absolute;
             bottom: 10px;
             left: 10px;
             font-size: 12px;
-	    letter-spacing: 2px;
+            letter-spacing: 2px;
             color: #FF0000;
             font-family: Helvetica, Arial, sans-serif;
             padding: 5px;
-        }
-        @media (max-width: 600px) {
-            .image-container img {
-                max-width: 100%; /* Ensure images fit within the viewport */
-            }
+            border-radius: 3px;
         }
     </style>
 </head>
 <body>    
     <div class="image-container">
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/5fiyjznldsmv9xkp02hbc/C6786A24-D11C-4606-90C7-EB7007775DA0_1_105_c.jpeg?rlkey=0l25gap10kwnvv6d5mdilrahc&st=6iwlmoax&raw=1" alt="Photo 1">
+            <img src="https://www.dropbox.com/scl/fi/e7urzn5pksfmupxwau41e/000039920010.jpeg?rlkey=be7j53mxivgms2hi1cz7zjk2u&st=brqtv33h&raw=1" alt="Photo 29">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/tiitfv0l9f2sqqypksgdv/000039920013.jpeg?rlkey=l61mfnucgyyi9bu8z7rz6047u&st=rwyosbz5&raw=1" alt="Photo 28">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/abmdkj5avv97s3yt4dgbb/000039920015.jpeg?rlkey=nbe8akj9dpem1mikvu0c28eng&st=wls9hz88&raw=1" alt="Photo 27">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/txx26ii4ze0yzstx9vqpt/000039920025.jpeg?rlkey=9wl23oxqj9bxks47e0fgxkoyi&st=o3pw0f0d&raw=1" alt="Photo 26">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/ayzepazc6ykahymukh5vz/000040780015.JPG?rlkey=9dud2o9jysbvqzhvu7u0kndrs&st=nfutwehj&raw=1" alt="Photo 25">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/st12t5lbx2hja2jb9lr5f/000040780024.jpg?rlkey=2j713g4g0dzzk6eqeudfi3zjw&st=3535ty64&raw=1" alt="Photo 24">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/2v92o2x7kawf0zawyhasu/000040780028.JPG?rlkey=mijcrkynebs19xf10dhrb4neb&st=ty5j70tg&raw=1" alt="Photo 23">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/bn3txk7k14mufju1mufve/000040780033.JPG?rlkey=27w7ukbrj0xqy8i537lgpvwuj&st=uoeuaobo&raw=1" alt="Photo 22">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/q2vcf9vng746ehnq3r8lk/000040780037.JPG?rlkey=vwuroxepb1uxa3c1nsjoigkig&st=t17rjdk9&raw=1" alt="Photo 21">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/5fiyjznldsmv9xkp02hbc/C6786A24-D11C-4606-90C7-EB7007775DA0_1_105_c.jpeg?rlkey=0l25gap10kwnvv6d5mdilrahc&st=6iwlmoax&raw=1" alt="Photo 20">
             <div class="image-credit">via grace conrad 2024</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/wo6im4wa3x46z3r6u3xjm/954C962D-B251-4C5C-B6C0-64506090864C.jpeg?rlkey=gz3tnjp4uwil8sn4wtpogi2tb&st=vlen821y&raw=1" alt="Photo 2">
+            <img src="https://www.dropbox.com/scl/fi/wo6im4wa3x46z3r6u3xjm/954C962D-B251-4C5C-B6C0-64506090864C.jpeg?rlkey=gz3tnjp4uwil8sn4wtpogi2tb&st=vlen821y&raw=1" alt="Photo 19">
             <div class="image-credit">via grace conrad 2024</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/0fold3soakuozq0mrm8f7/EA5C0F86-8062-402D-9165-8B9C18CD9612_1_105_c.jpeg?rlkey=xirqhcawra9361g4zwnpnonx4&st=9rtofpcv&raw=1" alt="Photo 3">
+            <img src="https://www.dropbox.com/scl/fi/0fold3soakuozq0mrm8f7/EA5C0F86-8062-402D-9165-8B9C18CD9612_1_105_c.jpeg?rlkey=xirqhcawra9361g4zwnpnonx4&st=9rtofpcv&raw=1" alt="Photo 18">
             <div class="image-credit">via grace conrad 2024</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/fk65dt6oe0w4kf33ojami/D198D83A-F10D-449E-821D-8C31FAAC8033_1_105_c.jpeg?rlkey=gz9acnzrwdiqrzxmf8qyjnppo&st=orblik3y&raw=1" alt="Photo 4">
+            <img src="https://www.dropbox.com/scl/fi/fk65dt6oe0w4kf33ojami/D198D83A-F10D-449E-821D-8C31FAAC8033_1_105_c.jpeg?rlkey=gz9acnzrwdiqrzxmf8qyjnppo&st=orblik3y&raw=1" alt="Photo 17">
             <div class="image-credit">via grace conrad 2024</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/2k1n38dev0xb5tnkrzi43/D81DBA13-BB93-41F7-A29C-D1E4339E7FE7_1_105_c.jpeg?rlkey=4iz4xvly1pc5u77t0ryxm9xq4&st=sivcz5iu&raw=1" alt="Photo 5">
+            <img src="https://www.dropbox.com/scl/fi/2k1n38dev0xb5tnkrzi43/D81DBA13-BB93-41F7-A29C-D1E4339E7FE7_1_105_c.jpeg?rlkey=4iz4xvly1pc5u77t0ryxm9xq4&st=sivcz5iu&raw=1" alt="Photo 16">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/xt3iui1ya6xen5oc8p9oj/D8A58039-3195-4E82-9977-FB3D0D8AA67A_1_105_c.jpeg?rlkey=ufmesx561hqhum0r7oh0v9jed&st=rcxtec0v&raw=1" alt="Photo 6">
+            <img src="https://www.dropbox.com/scl/fi/xt3iui1ya6xen5oc8p9oj/D8A58039-3195-4E82-9977-FB3D0D8AA67A_1_105_c.jpeg?rlkey=ufmesx561hqhum0r7oh0v9jed&st=rcxtec0v&raw=1" alt="Photo 15">
             <div class="image-credit">via fran kula 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/tqzemwbd4azx29ykvvji2/CF3CA025-F5FA-4427-A699-9F5CB2789348_1_105_c.jpeg?rlkey=oxoj0fccvsvsobamatxbqv1gy&st=2239lvyu&raw=1" alt="Photo 7">
+            <img src="https://www.dropbox.com/scl/fi/tqzemwbd4azx29ykvvji2/CF3CA025-F5FA-4427-A699-9F5CB2789348_1_105_c.jpeg?rlkey=oxoj0fccvsvsobamatxbqv1gy&st=2239lvyu&raw=1" alt="Photo 14">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/xo7h5fg9c8gk6tvregq91/BD72C2C1-9421-41F9-9525-76E6DCF9AE61_1_105_c.jpeg?rlkey=z0wp5ucegspn5csausceox16q&st=7mgxut2s&raw=1" alt="Photo 8">
+            <img src="https://www.dropbox.com/scl/fi/xo7h5fg9c8gk6tvregq91/BD72C2C1-9421-41F9-9525-76E6DCF9AE61_1_105_c.jpeg?rlkey=z0wp5ucegspn5csausceox16q&st=7mgxut2s&raw=1" alt="Photo 13">
             <div class="image-credit">via fran kula 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/haeo0yhn659uq3fynuqhg/58506233-8A67-459C-BA09-65D72181D683_1_105_c.jpeg?rlkey=sqs4dejkxguo4fkhnaaiviw6i&st=c08loexg&raw=1" alt="Photo 9">
+            <img src="https://www.dropbox.com/scl/fi/haeo0yhn659uq3fynuqhg/58506233-8A67-459C-BA09-65D72181D683_1_105_c.jpeg?rlkey=sqs4dejkxguo4fkhnaaiviw6i&st=c08loexg&raw=1" alt="Photo 12">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/tzklk5542ts9jun7s92ph/179EF20B-133D-43DB-B378-191F497A54DF_1_105_c.jpeg?rlkey=63r6eb3jjrhbw0bd7i8yeah6q&st=gyionlmu&raw=1" alt="Photo 10">
+            <img src="https://www.dropbox.com/scl/fi/tzklk5542ts9jun7s92ph/179EF20B-133D-43DB-B378-191F497A54DF_1_105_c.jpeg?rlkey=63r6eb3jjrhbw0bd7i8yeah6q&st=gyionlmu&raw=1" alt="Photo 11">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/wywj4cr6z94bt8htp67m1/087C732E-2AD2-4570-969F-88AED0DCF1AC_1_105_c.jpeg?rlkey=h6y6z91itj0rc90ngzyabvnal&st=pgbrror8&raw=1" alt="Photo 11">
+            <img src="https://www.dropbox.com/scl/fi/wywj4cr6z94bt8htp67m1/087C732E-2AD2-4570-969F-88AED0DCF1AC_1_105_c.jpeg?rlkey=h6y6z91itj0rc90ngzyabvnal&st=pgbrror8&raw=1" alt="Photo 10">
             <div class="image-credit">via fran kula 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/us3c1i0pffpfkwa30p832/009E50FA-099F-443E-AF77-72CBC0015A30_1_105_c.jpeg?rlkey=kdamvpzeyrgezol428og1h7q9&st=xpcio9f3&raw=1" alt="Photo 12">
+            <img src="https://www.dropbox.com/scl/fi/us3c1i0pffpfkwa30p832/009E50FA-099F-443E-AF77-72CBC0015A30_1_105_c.jpeg?rlkey=kdamvpzeyrgezol428og1h7q9&st=xpcio9f3&raw=1" alt="Photo 9">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/wxxxbee1n4dev3d18zcu8/8DBA5197-66BE-4CEC-8D02-8252D7B20407_1_105_c.jpeg?rlkey=6dtj3pm6jxwuak0p833seld8g&st=ksm9py9p&raw=1" alt="Photo 13">
+            <img src="https://www.dropbox.com/scl/fi/wxxxbee1n4dev3d18zcu8/8DBA5197-66BE-4CEC-8D02-8252D7B20407_1_105_c.jpeg?rlkey=6dtj3pm6jxwuak0p833seld8g&st=ksm9py9p&raw=1" alt="Photo 8">
             <div class="image-credit">via fran kula 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/r932pb71otiyj9dnny803/1C8E7BC1-0BB0-4F82-A620-C82C87B2693E_1_105_c.jpeg?rlkey=payt3yszd3pv9suy5b9d5aipr&st=eyhzsqt5&raw=1" alt="Photo 14">
+            <img src="https://www.dropbox.com/scl/fi/r932pb71otiyj9dnny803/1C8E7BC1-0BB0-4F82-A620-C82C87B2693E_1_105_c.jpeg?rlkey=payt3yszd3pv9suy5b9d5aipr&st=eyhzsqt5&raw=1" alt="Photo 7">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/j9k653hhyq0fb22b4ibp3/0A40C6ED-511B-42FC-91ED-F96120A68D53_1_105_c.jpeg?rlkey=74si98g1rrg9pzpp79v4rgzzy&st=ekfakmoz&raw=1" alt="Photo 15">
+            <img src="https://www.dropbox.com/scl/fi/j9k653hhyq0fb22b4ibp3/0A40C6ED-511B-42FC-91ED-F96120A68D53_1_105_c.jpeg?rlkey=74si98g1rrg9pzpp79v4rgzzy&st=ekfakmoz&raw=1" alt="Photo 6">
             <div class="image-credit">via clara badel 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/28hnusnle70rfpzppogcp/FA94339A-C728-437C-93ED-5F35C600AA36.jpeg?rlkey=yk745o1uzxkhif00vkodfrdy9&st=op46wkgd&raw=1" alt="Photo 16">
-            <div class="image-credit">via kalliopi magnis 2023</div>
-        </div>
-       <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/wkiv073hw5hehwch41f8s/1264D2BB-C950-4C41-8A52-4A51B2E6D988.jpeg?rlkey=1qkkyqa552kvnv6skivjceldn&st=fkr8ql3v&raw=1" alt="Photo 17">
+            <img src="https://www.dropbox.com/scl/fi/28hnusnle70rfpzppogcp/FA94339A-C728-437C-93ED-5F35C600AA36.jpeg?rlkey=yk745o1uzxkhif00vkodfrdy9&st=op46wkgd&raw=1" alt="Photo 5">
             <div class="image-credit">via kalliopi magnis 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/rjbouuahxz020vq70fs7w/aaaaEAA4EA7B-2F2F-409A-BC6E-6A1C7FC38A24.jpeg?rlkey=m0lvsycrp2ibgf9s8zgcpc2n6&st=cx2penbl&raw=1" alt="Photo 18">
+            <img src="https://www.dropbox.com/scl/fi/wkiv073hw5hehwch41f8s/1264D2BB-C950-4C41-8A52-4A51B2E6D988.jpeg?rlkey=1qkkyqa552kvnv6skivjceldn&st=fkr8ql3v&raw=1" alt="Photo 4">
             <div class="image-credit">via kalliopi magnis 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/q96z91qk6bp82fcul5i44/aaaaaaa.jpeg?rlkey=ipbtye7jd2h06izijqrxkj345&st=t85zr5o3&raw=1" alt="Photo 19">
+            <img src="https://www.dropbox.com/scl/fi/rjbouuahxz020vq70fs7w/aaaaEAA4EA7B-2F2F-409A-BC6E-6A1C7FC38A24.jpeg?rlkey=m0lvsycrp2ibgf9s8zgcpc2n6&st=cx2penbl&raw=1" alt="Photo 3">
             <div class="image-credit">via kalliopi magnis 2023</div>
         </div>
         <div class="image-wrapper">
-            <img src="https://www.dropbox.com/scl/fi/g0e67bskiy3rrre3bhfsp/37056880-1E37-40C2-9305-D16729586C53_1_105_c.jpeg?rlkey=xb66j5fip5yvetcswee0c0ig9&st=x12hipq1&raw=1" alt="Photo 20">
+            <img src="https://www.dropbox.com/scl/fi/q96z91qk6bp82fcul5i44/aaaaaaa.jpeg?rlkey=ipbtye7jd2h06izijqrxkj345&st=t85zr5o3&raw=1" alt="Photo 2">
+            <div class="image-credit">via kalliopi magnis 2023</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/g0e67bskiy3rrre3bhfsp/37056880-1E37-40C2-9305-D16729586C53_1_105_c.jpeg?rlkey=xb66j5fip5yvetcswee0c0ig9&st=x12hipq1&raw=1" alt="Photo 1">
             <div class="image-credit">via clara badel 2023</div>
         </div>
     </div>
