@@ -5,67 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Videos</title>
     <style>
-        /* Apply styles to the whole page */
         body {
-            background-color: #3F00FF; /* Background color changed to #3F00FF */
-            color: white; /* Text color changed to white */
-            font-family: Helvetica, Arial, sans-serif; /* Font style */
+            background-color: #3F00FF;
+            color: white;
+            font-family: Helvetica, Arial, sans-serif;
             margin: 0; 
             padding: 0; 
-            font-size: 11px; /* Text made slightly smaller */
-            letter-spacing: 1.5px; /* Increased spacing between letters */
-            line-height: 1.6; /* Increased line spacing for better readability */
-        } 
-
-        h1, p { 
-            margin: 0; 
-            padding: 1em; 
-            text-align: left; /* Align text to the left */
-            width: 100%; /* Ensure paragraphs take up full width */
-            max-width: 800px; /* Optional: limit the maximum width of paragraphs */
-            margin-bottom: 3em; /* Increased margin between text and image */
-        } 
-
-        a { 
-            color: lightblue; /* Link color */
-            text-decoration: none; /* Remove underline from links */
-        } 
-
-        a:hover { 
-            text-decoration: underline; /* Add underline on hover */
-        } 
-
-        img { 
-            max-width: 100%; /* Ensure images fit within their container */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Remove default inline spacing */
-            margin: 0 auto; /* Center images */
-            filter: grayscale(100%); /* Apply grayscale filter to make images black and white */
+            font-size: 11px;
+            letter-spacing: 1.5px;
+            line-height: 1.6;
         }
-        
+
+        /* Header styles */
+        .header {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12px;
+            color: yellow;
+            padding: 1em;
+            letter-spacing: 2px;
+            background-color: #3F00FF;
+            text-align: left;
+        }
+
+        .header a {
+            color: yellow;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        h1, p {
+            margin: 0;
+            padding: 1em 0 0.5em 1em;
+            text-align: left;
+        }
+
+        a {
+            color: lightblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            filter: grayscale(100%);
+        }
+
         .video-section {
-            width: 100%; /* Full width for each section */
-            max-width: 800px; /* Optional: limit the width */
-            margin-bottom: 2em; /* Space between sections */
-        }
-
-        .video-section p {
-            text-align: left; /* Align text to the left */
+            width: 100%;
+            max-width: 800px;
+            padding-left: 1em;
+            margin-bottom: 2.5em;
         }
 
         .video-section a {
-            display: block; /* Make the link block level to ensure image aligns below text */
-            margin-top: 1em; /* Add space between text and image */
+            display: inline-block;
+            margin-top: 0.5em;
         }
 
         .video-section img {
-            width: 100%; /* Image takes up full width of the container */
+            width: 100%;
+            max-width: 800px;
         }
     </style>
 </head>
 <body>
 
-    <div class="video-section">
+    <!-- Header added here -->
+    <div class="header">
+        <a href="index.html">Home</a> |
+        <a href="showarchive.html">Shows</a> |
+        <a href="livephotos.html">Photos</a> |
+        <a href="FAQs.html">FAQs</a>
+    </div>
+  <div class="video-section">
         <p>Stone Circle Theater— May 2024</p>
         <a href="https://www.youtube.com/watch?v=mdq7Ft08UQ0" target="_blank">
             <img src="https://www.dropbox.com/scl/fi/c09n9yy6ra0eqokel4mpc/Screen-Shot-2024-08-30-at-1.07.34-PM.png?rlkey=fqtngmola0tpykddkrj09y0ya&st=b5efzj51&raw=1" alt="Stone Circle Theater">
