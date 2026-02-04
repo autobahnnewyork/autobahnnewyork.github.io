@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <style>
+        body {
+            background-color: #3F00FF;
+            color: white;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        h1, p {
+            margin: 0;
+            padding: 1em;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        a {
+            color: lightblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12px;
+            color: yellow;
+            padding: 1em;
+            letter-spacing: 2px;
+        }
+
+        .header a {
+            color: yellow;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            width: 100%;
+            padding: 0;
+        }
+
+        .image-wrapper {
+            position: relative;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-credit {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #FF0000;
+            font-family: Helvetica, Arial, sans-serif;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="/index.html">Home</a> |
+        <a href="/showarchive.html">Shows</a> |
+        <a href="/livevideos.html">Videos</a> |
+        <a href="/FAQs.html">FAQs</a>
+    </div>
+<div class="image-container">
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/e7urzn5pksfmupxwau41e/000039920010.jpeg?rlkey=be7j53mxivgms2hi1cz7zjk2u&st=brqtv33h&raw=1" alt="Photo 29">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/tiitfv0l9f2sqqypksgdv/000039920013.jpeg?rlkey=l61mfnucgyyi9bu8z7rz6047u&st=rwyosbz5&raw=1" alt="Photo 28">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/abmdkj5avv97s3yt4dgbb/000039920015.jpeg?rlkey=nbe8akj9dpem1mikvu0c28eng&st=wls9hz88&raw=1" alt="Photo 27">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/txx26ii4ze0yzstx9vqpt/000039920025.jpeg?rlkey=9wl23oxqj9bxks47e0fgxkoyi&st=o3pw0f0d&raw=1" alt="Photo 26">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/ayzepazc6ykahymukh5vz/000040780015.JPG?rlkey=9dud2o9jysbvqzhvu7u0kndrs&st=nfutwehj&raw=1" alt="Photo 25">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/st12t5lbx2hja2jb9lr5f/000040780024.jpg?rlkey=2j713g4g0dzzk6eqeudfi3zjw&st=3535ty64&raw=1" alt="Photo 24">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/2v92o2x7kawf0zawyhasu/000040780028.JPG?rlkey=mijcrkynebs19xf10dhrb4neb&st=ty5j70tg&raw=1" alt="Photo 23">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/bn3txk7k14mufju1mufve/000040780033.JPG?rlkey=27w7ukbrj0xqy8i537lgpvwuj&st=uoeuaobo&raw=1" alt="Photo 22">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/q2vcf9vng746ehnq3r8lk/000040780037.JPG?rlkey=vwuroxepb1uxa3c1nsjoigkig&st=t17rjdk9&raw=1" alt="Photo 21">
+            <div class="image-credit">via kalliopi magnis 2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/5fiyjznldsmv9xkp02hbc/C6786A24-D11C-4606-90C7-EB7007775DA0_1_105_c.jpeg?rlkey=0l25gap10kwnvv6d5mdilrahc&st=6iwlmoax&raw=1" alt="Photo 20">
+            <div class="image-credit">via grace conrad 2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/wo6im4wa3x46z3r6u3xjm/954C962D-B251-4C5C-B6C0-64506090864C.jpeg?rlkey=gz3tnjp4uwil8sn4wtpogi2tb&st=vlen821y&raw=1" alt="Photo 19">
+            <div class="image-credit">via grace conrad 2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/0fold3soakuozq0mrm8f7/EA5C0F86-8062-402D-9165-8B9C18CD9612_1_105_c.jpeg?rlkey=xirqhcawra9361g4zwnpnonx4&st=9rtofpcv&raw=1" alt="Photo 18">
+            <div class="image-credit">via grace conrad 2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/fk65dt6oe0w4kf33ojami/D198D83A-F10D-449E-821D-8C31FAAC8033_1_105_c.jpeg?rlkey=gz9acnzrwdiqrzxmf8qyjnppo&st=orblik3y&raw=1" alt="Photo 17">
+            <div class="image-credit">via grace conrad 2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/2k1n38dev0xb5tnkrzi43/D81DBA13-BB93-41F7-A29C-D1E4339E7FE7_1_105_c.jpeg?rlkey=4iz4xvly1pc5u77t0ryxm9xq4&st=sivcz5iu&raw=1" alt="Photo 16">
+            <div class="image-credit">via clara badel 2023</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/xt3iui1ya6xen5oc8p9oj/D8A58039-3195-4E82-9977-FB3D0D8AA67A_1_105_c.jpeg?rlkey=ufmesx561hqhum0r7oh0v9jed&st=rcxtec0v&raw=1" alt="Photo 15">
+            <div class="image-credit">via fran kula 2023</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/9g34irdg3w5jrtbunfqfd/Photo-Jan-12-2007-06-08-22.jpg?rlkey=pwtct8r1o4i8hq3wwwwvtopjr&st=tbgyedwp&raw=1" alt="Photo 14">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/58c3eu2de04xrvuldpz93/Photo-Jan-12-2007-06-08-09.jpg?rlkey=kfd7d9w9t2p9lmhoykdxgmszb&st=7fxupete&raw=1" alt="Photo 13">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/fvas5znqeaiqujydoll4e/Photo-Jan-12-2007-06-07-23.jpg?rlkey=ixagivdbb10npmqyut3b6uby6&st=qyqua7io&raw=1" alt="Photo 12">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/k4p7ph8r1jfrggxydgq0x/Photo-Jan-12-2007-05-42-11.jpg?rlkey=ohnwwc01zgwoysgpwzcetrzrd&st=7c4undg3&raw=1" alt="Photo 11">
+            <div class="image-credit">2025/div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/xpsniit8rqf0xsxdxsn91/Photo-Jan-09-2007-11-19-31.jpg?rlkey=i7iqxnpsfg72drly440eutqzj&st=gzq4273b&raw=1" alt="Photo 10">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/903uzhn8n5d9y3izaxjq7/Photo-Jan-09-2007-11-19-38.jpg?rlkey=evxtstxzx0lb7u3xhturgwaax&st=u3k7rss0&draw=1" alt="Photo 9">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/5tbbb6z0r7td4e5vs79tn/Photo-Jan-09-2007-11-20-01.jpg?rlkey=yyi78be0yh47w72yun9vp5qd4&st=dkapgioi&raw=1" alt="Photo 8">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/lmycq8111qdnsvtas3b2d/Photo-Jan-09-2007-11-24-03.jpg?rlkey=v8iwo6tomgr6talix9jqsrnx3&st=94lshvph&raw=1" alt="Photo 7">
+            <div class="image-credit">2025</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/7neax2sx4aa06n7g8rrtp/Photo-Mar-21-2013-23-25-22.jpg?rlkey=uvhx1tfw0io2s89d7afx5gsvj&st=qt1bt6bc&raw=1" alt="Photo 6">
+            <div class="image-credit">2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/lwlnf5bkzuqzp07mp5kl9/Photo-Mar-21-2013-23-25-34.jpg?rlkey=2spp7l68rmx9ane3gqulomrpe&st=7bcfkuu0&raw=1" alt="Photo 5">
+            <div class="image-credit">2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/9bwvbb95ixn2plm7x6fos/Photo-Mar-21-2013-23-26-26.jpg?rlkey=fwzaw379tyu4yqxfsqjscpdc1&st=vsuke2cz&raw=1" alt="Photo 4">
+            <div class="image-credit">2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/zbebzsqaji85t73ycmlhu/Photo-Mar-22-2013-13-57-28.jpg?rlkey=hx8spsssxpkc13j3m9k9qw38x&st=bw9u3ffv&raw=1" alt="Photo 3">
+            <div class="image-credit">2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/qg23tf5ygj2op0kh6xqzp/Photo-Mar-22-2013-13-58-42.jpg?rlkey=ip0u1yfqh181v9x0qxme36dhw&st=a50avdsu&raw=1" alt="Photo 2">
+            <div class="image-credit">2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/zza885af2uaabihb5vvwu/Photo-Mar-22-2013-22-33-04.jpg?rlkey=l7yuhllrvojdxek1qoyco0tpl&st=8rt69kl5&raw=1" alt="Photo 1.a">
+            <div class="image-credit">2024</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="https://www.dropbox.com/scl/fi/3xkzab6tudfor5665tu52/Photo-Mar-23-2013-15-59-18.jpg?rlkey=5e41l8ykjmr0zwn1p6f9oqmt7&st=844ktgj0&raw=1" alt="Photo 1.c">
+            <div class="image-credit">2024</div>
+        </div>
+</body>
+</html>
