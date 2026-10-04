@@ -1,99 +1,265 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Autobahn</title>
+
     <link rel="icon" href="/favicon.png" type="image/png">
+
     <style>
-      
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
         body {
-            background-color: white; 
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
             color: black;
             font-family: Helvetica, Arial, sans-serif;
-            margin: 0; 
-            padding: 0; 
+            font-size: 14px;
+            letter-spacing: 0.5px;
             text-align: center;
-            font-size: 14px; 
-            letter-spacing: 0.5px; 
         }
 
-        h1, p {
-            margin: 0; 
-            padding: 1em; 
+        /* HEADER */
+
+        .header {
+            width: 100%;
+            padding: 12px;
+            text-align: center;
         }
 
-      
-        a {
-            color: #3F00FF; 
-            text-decoration: none; 
-        }
-        a:hover {
-            text-decoration: underline; 
+        .header-image {
+            display: block;
+            width: 20vw;
+            max-width: 300px;
+            height: auto;
+            margin: 0 0 8px 0;
         }
 
-       
+        .header-text {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            line-height: 1.35;
+            text-align: center;
+        }
+
+        /* LINKS */
+
         .links-container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 15px;
-            padding: 1em;
+            padding: 20px;
+            width: 100%;
         }
 
-      
+        .links-container p {
+            margin: 0;
+            padding: 10px;
+        }
+
+        a {
+            color: #3F00FF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* MAIN PHOTO */
+
         .image-container {
+            width: 100%;
+            padding: 10px 2.5vw;
             text-align: center;
-            padding: 1em; 
         }
+
         .image-container img {
-            max-width: 100%; 
-            height: auto; 
+            display: block;
+            width: 95vw;
+            max-width: none;
+            height: auto;
+            margin: 0 auto;
         }
+
+        /* CONTACT */
+
+        .contact {
+            padding: 20px;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        /* FOOTER */
 
         footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #3F00FF; 
-            color: #000;
+            width: 100%;
+            height: 80px;
             margin-top: 20px;
+            padding: 0;
+            background-color: #3F00FF;
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
 
+        footer p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* MOBILE */
+
         @media (max-width: 600px) {
-            h1 {
-                font-size: 24px; 
-            }
-            p {
-                font-size: 14px; 
+
+            body {
+                font-size: 14px;
             }
 
+            .header {
+                padding: 8px;
+            }
+
+            .header-image {
+                width: 45vw;
+                max-width: none;
+                margin-bottom: 8px;
+            }
+
+            .header-text {
+                font-size: 13px;
+                line-height: 1.35;
+                text-align: center;
+            }
 
             .links-container {
-                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+                grid-template-columns: 1fr;
+                gap: 0;
+                padding: 10px;
+            }
+
+            .links-container p {
+                padding: 8px;
+            }
+
+            .image-container {
+                padding: 5px 2.5vw;
+            }
+
+            .image-container img {
+                width: 95vw;
+            }
+
+            .contact {
+                padding: 15px 10px;
+            }
+
+            footer {
+                height: 70px;
+                margin-top: 10px;
             }
         }
     </style>
 </head>
+
 <body>
-<p><i>Guitars, Cellos, Drums. Samplers, Laptops, Tape machines. Three delay pedals—Louisa Tantillo, Findlay Fullarton, Liam Barton—Autobahn New York City</i></p>
 
-<!-- Links in grid layout -->
-<div class="links-container">
-    <p><a href="page2/showarchive.html">shows</a></p>
-    <p><a href="https://autobahn212.bandcamp.com/album/filler-migration" target="_blank">"Filler Migration" Triple Single</a></p> 
-    <p><a href="https://ebay.io/m/j0uObh">eBay store</a></p>
-    <p><a href="page2/imagearchive">are you someone who cares?</a></p>
-    
-</div>
+    <header class="header">
 
-<div class="image-container">
-    <img src="https://www.dropbox.com/scl/fi/xjc43vxw6nwbkodjnfz4k/Photo-Jul-03-2026-12-38-46.jpg?rlkey=dmvfl12gu2w83o2mh4r0fbdaz&st=mc5sl9vr&raw=1" alt="Autobahn Image">
-</div>
+        <img
+            class="header-image"
+            src="https://www.dropbox.com/scl/fi/uxoza7k4vtivpz0ks5kzs/autobahn-website-banner.jpg?rlkey=tksld1h7dt1r2xrxb8o55hhqt&st=1b4w1k4g&raw=1"
+            alt="Autobahn"
+        >
 
-<p>autobahnduo@gmail.com <br>mgmt – kalliopi@m-g-m-t.com </p> 
+        <p class="header-text">
+            <i>
+                Guitars, Cellos, Drums. Samplers, Laptops, Tape machines.
+                Three delay pedals—Louisa Tantillo, Findlay Fullarton, Liam Barton—Autobahn New York City
+            </i>
+        </p>
 
-<footer>
-    <p>&copy; <span id="2024"></span> Autobahn website powered by rock</p>
-</footer>
+    </header>
+
+
+    <main>
+
+        <div class="links-container">
+
+            <p>
+                <a href="page2/showarchive.html">
+                    shows
+                </a>
+            </p>
+
+            <p>
+                <a
+                    href="https://autobahn212.bandcamp.com/album/filler-migration"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    "Filler Migration" Triple Single
+                </a>
+            </p>
+
+            <p>
+                <a
+                    href="https://ebay.io/m/j0uObh"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    eBay store
+                </a>
+            </p>
+
+            <p>
+                <a href="page2/imagearchive">
+                    are you someone who cares?
+                </a>
+            </p>
+
+        </div>
+
+
+        <div class="image-container">
+
+            <img
+                src="https://www.dropbox.com/scl/fi/xjc43vxw6nwbkodjnfz4k/Photo-Jul-03-2026-12-38-46.jpg?rlkey=dmvfl12gu2w83o2mh4r0fbdaz&st=mc5sl9vr&raw=1"
+                alt="Autobahn"
+            >
+
+        </div>
+
+    </main>
+
+
+    <div class="contact">
+        autobahnduo@gmail.com
+        <br>
+        mgmt – kalliopi@m-g-m-t.com
+    </div>
+
+
+    <footer>
+        <p>
+            &copy; 2024 Autobahn website powered by rock
+        </p>
+    </footer>
+
 </body>
 </html>
+
 
